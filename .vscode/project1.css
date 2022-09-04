@@ -1,0 +1,23 @@
+* {margin:0;}
+Html, body {height: 100%;}
+
+    div {background-color: #6A0DAD; width: 100%; Color: #FbFbF9;  border: solid 1 pc #333; margin: 25px; border: solid 5px #36013F;}
+    body {background-color: #E3E4FA; font-family: Arial, Helvetica, sans-serif;}
+    p {margin: 0.5em 0 0.5em 0;}
+    Header {display:block; position: fixed; top: 0; left:0; width: 100%; background-color:#FbFbF9; color:#ccc; padding: 10px;}
+    nav a:visited, 
+nav a:link {color: #39f; text-decoration: none;}
+    nav > ul > li {display: inline-block; list-style: none; margin: 0 5px 0 5 px;}
+    main {background-color: #ccc; width: 50%;}
+    h1 { color: #6698FF;}
+    h2 {color: #56A5EC}
+      img[src="https://via.placeholder.com/350x150"] {border: solid 3px #663399;}
+      img[src="https://via.placeholder.com/200x100"] {border: solid 4px #5453A6;}
+      .tutorial > p {font-size: 1.1em;}
+      .columns {border: solid 1px #39f; display: flex;}
+      .columns > div {border: solid 1 px #ccc; flex: 1;}
+      .columns > div: nth-of-type (2) {flex: 2}
+      .desktop, .print {display:none;}
+      @media print {.mobile, .desktop {display:none;} .print {display:block;} 
+        @media screen and (min-width: 768px) .mobile {display: none;} .desktop {display:block;}}
+ 
