@@ -1,0 +1,31 @@
+* {Margin: 0;}
+Html, body {height: 100%}
+div {Color: #36013F;flex: 1;}
+body {background-color: #E3E4FA; font-family: Arial, Helvetica, sans-serif;}
+p {margin: 0.5em 0 0.5em 0;}
+header {display: block; position:top; top:0; left:0; width:100%; padding: 10px;}
+nav a: visited, nav: a link {color: #fff; text-decoration: none;}
+nav > ul {display: inline; padding: 0;}
+nav > ul > li {display: inline-block; list-style:none; margin: 0 5px 0 5px; color: #36013F;}
+h1 { color: #421d7c; }
+h2 {color:#421d7c; background-color: rgb(255, 255, 255);}
+h3 {color:#9a21af;}
+  .tutorial > p {font-size: 1.1em;}
+  .desktop, .print {display:none;}
+  @media print {.mobile, .desktop {display:none;} .print {display:block;} 
+    @media screen and (min-width: 768px) .mobile {display: none;} .desktop {display:block;}}
+    main {color:#000000; font-family: Arial, Helvetica, sans-serif; font-size: large;}
+    ul {list-style: none;}
+    input[type="text"] {font-size: 15px;}
+section {background-color: #cbcdf1; width: 100%; font-size: 1.5em; }
+.row {display:flex 1;}
+.columns {display: inline-flex;
+border: solid 4px #rgb(226, 220, 220); 
+flex: 1;
+background-color: rgb(233, 189, 250); width: 100%; height: 50%; }
+.requests {display: flex; 
+  flex: 1;
+  background-color: rgb(233, 189, 250); width: 2000px;height: 200px;}
+  input {height:80%; width: 70%; font-size: small;}
+  h4 {font-size:large;}
+  text {display: inline-flex;}
