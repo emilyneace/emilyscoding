@@ -1,0 +1,24 @@
+* {Margin: 0;}
+Html, body {height: 100% width: 100%;}
+div {Color: #000000;flex: 1;}
+body {background-color: #cf4f4f; font-family: Arial, Helvetica, sans-serif;width: 100%;}
+p {margin: 0.5em 0 0.5em 0;}
+header {display: block; position:top; top:0; left:0; width:100%; background-color:#ec8e8e; padding: 10px;}
+nav a: visited, nav: a link {color: #fff; text-decoration: none;}
+nav > ul {display: inline; padding: 0;}
+nav > ul > li {display: inline-block; list-style:none; margin: 0 5px 0 5px; color: #dd5d12;}
+h1 { color: #ff6600; background-color: rgb(255, 255, 255); width: 100%; font-size: 40px;}
+h2 {color:#ff6600; background-color: rgb(255, 255, 255);width: 100%;}
+h3 {color:#ff6e0d;}
+  .tutorial > p {font-size: 1.1em;}
+  .columns {display: flex;}
+  .columns > div {border: solid 1 px rgb(190, 34, 34); flex: 1; width: 100%;}
+  .columns > div: nth-of-type (2) {flex: 2}
+  .desktop, .print {display:none;}
+  @media print {.mobile, .desktop {display:none;} .print {display:block;} 
+    @media screen and (min-width: 768px) .mobile {display: none;} .desktop {display:block;}}
+    main {color:#000000; font-family: Arial, Helvetica, sans-serif; font-size: large; width: 100%;}
+    ul {list-style: none;}
+    input[type="text"] {font-size: 15px;}
+section {background-color: #a14343; width: 100%;}
+    .row {display: flex;}
